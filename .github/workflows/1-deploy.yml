@@ -14,7 +14,7 @@ on:
 
 jobs:
   workfflow-test:
-    uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@master
+    uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@main
     with:
       username: 'abacaxi'
     secrets: inherit
