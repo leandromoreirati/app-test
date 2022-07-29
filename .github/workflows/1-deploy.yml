@@ -9,7 +9,7 @@ on:
       - "main"
 
 jobs:
-  workfflow-test:
+  workflow-test:
     uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@v1
     with:
       username: 'abacaxi'
