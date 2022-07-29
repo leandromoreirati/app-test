@@ -1,0 +1,13 @@
+name: "1 - Pipeline test"
+
+on:
+  push:
+    branches:
+      - "feature/**"
+
+jobs:
+  workfflow-test:
+    uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml
+    with:
+      username: quadradinho
+    secrets: inherit
