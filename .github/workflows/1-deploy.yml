@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - "feature/**"
-      - "develop/**"
+      - "develop"
       - "release/**"
       - "main"
+
+  pull_request:
+    branches: [ develop ]
 
 jobs:
   workfflow-test:
