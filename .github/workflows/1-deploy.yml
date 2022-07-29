@@ -9,5 +9,5 @@ jobs:
   workfflow-test:
     uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@v1
     with:
-      username: quadradinho
+      username: 'abacaxi'
     secrets: inherit
