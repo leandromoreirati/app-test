@@ -8,8 +8,8 @@ on:
       - "release/**"
       - "main"
 
-  pull_request:
-    branches: [ develop ]
+  #pull_request:
+  #  branches: [ develop ]
 
 jobs:
   workfflow-test:
