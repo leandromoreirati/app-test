@@ -1,0 +1,20 @@
+name: "1 - Pipeline test"
+
+on:
+  push:
+    branches:
+      - "feature/**"
+      - "develop"
+      - "release/**"
+      - "main"
+
+  #pull_request:
+  #  branches: [ develop ]
+
+
+jobs:
+  workfslow-test:
+    uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@v1
+    with:
+      username: 'abacaxi'
+    secrets: inherit
