@@ -8,8 +8,12 @@ on:
       - "release/**"
       - "main"
 
+  #pull_request:
+  #  branches: [ develop ]
+
+
 jobs:
-  workflow-test:
+  workfslow-test:
     uses: leandromoreirati/github-workflow/.github/workflows/tests.yaml@v1
     with:
       username: 'abacaxi'
